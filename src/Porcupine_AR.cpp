@@ -1,5 +1,5 @@
 /*
-    Copyright 2021 Picovoice Inc.
+    Copyright 2021-2025 Picovoice Inc.
 
     You may not use this file except in compliance with the license. A copy of the license is located in the "LICENSE"
     file accompanying this source.
@@ -17,11 +17,6 @@
 
 #define UUID_ADDRESS (0x10000060)
 #define UUID_SIZE (8)
-
-#elif (defined(ARDUINO_PORTENTA_H7_M7) || defined(ARDUINO_PORTENTA_H7_M4))
-
-#define UUID_ADDRESS (0x1FF1E800)
-#define UUID_SIZE (12)
 
 #else
 
